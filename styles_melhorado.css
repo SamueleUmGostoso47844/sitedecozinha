@@ -62,8 +62,8 @@ footer {
         gap: 1rem;
     }
     footer {
-        position: static;
-    }
+    position: static;
+}
 }
 
 .chef-hat-icon {
