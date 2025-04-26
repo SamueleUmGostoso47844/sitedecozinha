@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+header {
+    background-color: #ff7043;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+nav {
+    background-color: #ffab91;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0.5rem 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+section {
+    margin-bottom: 3rem;
+}
+h2 {
+    border-bottom: 2px solid #ff7043;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.recipe, .tip {
+    background-color: #fff3e0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer {
+    background-color: #ff7043;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer {
+        position: static;
+    }
+}
+
+.chef-hat-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    fill: white;
+    width: 32px;
+    height: 32px;
+}
+
+.nav-button {
+    background-color: #ff7043;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #ff5722;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
